@@ -1,10 +1,21 @@
 # 👋 ohxinru
 
+
+## 使用 gitpod 远程开发
+
+> 使用 gitpod 直接在在线开发调试、体验本工程。
+> 点击下方按钮一键启动 gitpod
+
+[![Gitpod开发环境:master](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ohxinru/ohxinru.github.io)
+
 ## 我的学习资料
+
+> 主要与项目管理相关以及GitHub相关知识，持续更新中
 
   [![project handbook](https://img.shields.io/badge/feishu.wiki-项目知识库-blue)](https://lm4tvml1s9.feishu.cn/wiki/wikcnN5Of4tnXQp10akMIup3xFd)
   [![docs](https://img.shields.io/badge/docs.github.com-GitHub指南-brightgreen)](https://docs.github.com/en) 
  
+
 ## 流程制度
 
 <table>
