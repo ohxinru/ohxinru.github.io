@@ -6,13 +6,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: ' hello ohxinru',
+  title: ' Hello ohxinru',
   tagline: 'xr blog',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/icon标准版.png',
+  favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -64,7 +64,7 @@ const config = {
         title: 'OHXINRU',
         logo: {
           alt: 'ohxinru. Logo',
-          src: 'img/icon标准版.png',
+          src: 'img/favicon.ico',
         },
         items: [
           {
@@ -206,7 +206,7 @@ const config = {
             ],
           },
         ],
-        copyright: `一定要有么？`,
+        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Ohxinru.`,
       },
       prism: {
         theme: lightCodeTheme,
