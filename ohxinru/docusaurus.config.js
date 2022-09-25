@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'ohxinru',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Show my blog',
   url: 'https://ohxinru.github.io/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
