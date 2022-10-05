@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'GitHub Knowledge',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+      一个不懂技术的项目经理对GitHub的认知: 在不懂代码的情况下可以操作GitHub的哪些内容。
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Project Knowledge',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        一个历经多年项目经历的项目经理对项目的认知: 在多年的积累下可以分享项目的哪些内容。
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Others',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        一个喜欢挑战的项目经理对其他知识的认知。
       </>
     ),
   },

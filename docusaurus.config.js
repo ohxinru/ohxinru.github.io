@@ -59,17 +59,21 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'OHXINRU',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Ohxinru Logo',
+          src: 'img/ohxinru.jpg',
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Github',
+            to: 'docs/github',              
+          },
+          {
+            position: 'left',
+            label: 'Process',
+            to: 'docs/process',            
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -86,11 +90,16 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'github',
+                to: '/docs/github',
+              },
+              {
+                label: 'process',
+                to: '/docs/process',
               },
             ],
           },
+          
           {
             title: 'Community',
             items: [
@@ -117,12 +126,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/ohxinru/ohxinru.github.io',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} OHXINRU.`,
       },
       prism: {
         theme: lightCodeTheme,
