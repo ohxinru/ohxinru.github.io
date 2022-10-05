@@ -99,7 +99,6 @@ const config = {
               },
             ],
           },
-          
           {
             title: 'Community',
             items: [
